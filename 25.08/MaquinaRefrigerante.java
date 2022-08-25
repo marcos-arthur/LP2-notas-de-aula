@@ -71,4 +71,12 @@ public class MaquinaRefrigerante {
         System.out.println("# R$ " + preco + ",00");
         System.out.println("##################");
     }
+
+    public void imprimirMovimentoDia(){
+        System.out.println("##################");
+        System.out.println("# Preco ##########");
+        System.out.println("# Refrigerante");
+        System.out.println("# R$ " + total + ",00");
+        System.out.println("##################");
+    }
 }

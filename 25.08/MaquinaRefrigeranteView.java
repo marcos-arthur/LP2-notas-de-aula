@@ -18,5 +18,7 @@ public class MaquinaRefrigeranteView {
         System.out.println("Balanco: R$" + mr.getBalanco() + ",00");
         System.out.println();
 
+        mr.imprimirMovimentoDia();
+
     }
 }
