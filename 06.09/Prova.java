@@ -10,6 +10,7 @@ public class Prova{
     public double calcularNotaTotal(){
         double total;
         if(notaParte1 + notaParte2 > 10) total = 10;
+        else if (notaParte1 + notaParte2 < 0) total = 0;
         else total = notaParte1 + notaParte2;
 
         return total;
